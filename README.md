@@ -1,1 +1,1 @@
-# GitHub_Actions-Terraform
+# Terraform Integration with GitHub Actions
