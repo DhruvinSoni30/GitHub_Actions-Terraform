@@ -47,12 +47,6 @@ variable "instancetype" {
   default = "t2.medium"
 }
 
-# Defining Search Head count 
-variable "search_count" {}
-
-# Defining Indexer count 
-variable "indexer_count" {}
-
 # Defining Master count 
 variable "master_count" {
   default = 1
