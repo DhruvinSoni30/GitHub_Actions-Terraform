@@ -170,6 +170,9 @@ resource "aws_instance" "demoinstance" {
   
   # SSH into instance 
   connection {
+    
+    # Host name
+    host = self.public_ip
     # The default username for our AMI
     user = "ec2-user"
     # Private key for connection
