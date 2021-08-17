@@ -15,7 +15,9 @@ variable "key_name" {
 }
 
 # Defining Region
-variable "aws_region" {}
+variable "aws_region" {
+  default = "us-east-1"
+}
 
 # Defining CIDR Block for VPC
 variable "vpc_cidr" {
